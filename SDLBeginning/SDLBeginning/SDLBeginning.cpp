@@ -124,14 +124,14 @@ int Exercise3Lines()
 	}
 
 
-	SDL_Window* window = SDL_CreateWindow("Harrison Roddie Leitch 16657607", 100,100, 1000, 1000,SDL_WINDOW_RESIZABLE);
+	SDL_Window* window = SDL_CreateWindow("Harrison Roddie Leitch 16657607", SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED, 1000, 1000,SDL_WINDOW_SHOWN);
 
 	SDL_Renderer* renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
 	SDL_SetRenderDrawColor(renderer, 0, 0, 250, 250);
 
 	int count = 0;
-	int limit = (rand() % 10045 + 1);
+	int limit = 100;
 	while ( count < limit)
 	{
 		int xStart = rand() % 1000 + 1;
