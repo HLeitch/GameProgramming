@@ -2,12 +2,14 @@
 //
 
 #include <iostream>
+#include "HL_GameObject.h"
 #include "SDL.h"
 #include"GameWindow.h"
 #include"HL_Timer.h"
 #include "HL_Rectangle.h"
-#include "HL_GameObject.h"
+
 #include "HL_GameWorld.h"
+#include "HL_Square.h"
 
 //key press tracker
 #define max_KEYS (256)
@@ -18,7 +20,7 @@ bool gKeys[MAX_KEYS];
 
 SDL_Event _event;
 
-
+HL_Square* theSquare;
 
 bool done = false;
 
@@ -83,13 +85,6 @@ void Update(GameWindow* gw, HL_Rectangle* gameObject)
     SDL_GetWindowSize(gw->myWindow, screenWidth, screenHeight);
 
 
-    gameObject->myRect->x += Speed;
-    if ((gameObject->myRect->x > *screenWidth) || (gameObject->myRect->x < 0))
-    {
-        Speed = -Speed;
-    }
-
-
 }
 
 void Render(SDL_Renderer* renderer, HL_Rectangle* gameObject)
@@ -151,32 +146,18 @@ HL_GameWorld myworld;
 
 int main(int argc, char* argv[])
 {
-    //if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
-    //{
-    //    return 1;
-    //}
+    if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
+    {
+        return 1;
+    }
 
-    //// myworld.Init();
-    //myworld.Run();
+    // myworld.Init();
+    myworld.Run();
 
 
 
     ////Experiments in workshop
 
-    int a;
-    int b;
-
-    std::cout << "Enter value of A: ";
-    std::cin >> a;
-    std::cout << "Enter value of B: ";
-    std::cin >> b;
-
-    int* ptrA = &b;
-    int* ptrB = &a;
-
-
-
-    //ptrA = 2, ptrb = 1
 
     return 0;
 }

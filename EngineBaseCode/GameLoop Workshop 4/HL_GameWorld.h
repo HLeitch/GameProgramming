@@ -50,7 +50,7 @@ public:
 
 
 
-	HL_Rectangle* aSquare;
+	HL_Rectangle* aRectangle;
 	/////////////////////////
 };
 
