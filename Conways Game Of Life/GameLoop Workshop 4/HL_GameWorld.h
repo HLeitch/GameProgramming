@@ -9,7 +9,7 @@
 #include "HL_Square.h"
 
 #define MAX_KEYS (256)
-#define gWorldSize (350)
+#define gWorldSize (300)
 #define MOVE_LEFT 'w'
 
 class HL_GameWorld
@@ -20,7 +20,7 @@ private:
 	HL_Timer* timer;
 
 	//Time between updates. Will change framerate if modified
-	const int delta_Time = 500;
+	const int delta_Time = 3;
 	
 	// If true, disables game loop.
 	bool done = false;
@@ -34,7 +34,10 @@ public:
 
 	void Init();
 
+	void ChangeState();
+
 	void Input();
+	int randColorElement();
 	void Update();
 	void WorldRendering();
 	void RenderPoint(int i, int j);
@@ -47,7 +50,12 @@ public:
 	void Quit();
 
 	int countNeighbour(int cellx, int celly);
+	bool paused = false;
 	
+	int cellEdgeLength = 4;
+
+	int mouseX = 0;
+	int mouseY = 0;
 	
 
 	//keyboard Handler
@@ -56,7 +64,7 @@ public:
 	bool gWorld[gWorldSize][gWorldSize];
 	bool gNewWorld[gWorldSize][gWorldSize];
 
-	int chanceOfAliveAtStart = 33;
+	int chanceOfAliveAtStart = 50;
 
 	SDL_Rect renderingRectangle;
 

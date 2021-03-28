@@ -9,7 +9,7 @@ GameWindow::GameWindow(const char &title)
 
 	}
 
-	myWindow =  SDL_CreateWindow(&title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1000, 1000, SDL_WINDOW_SHOWN);
+	myWindow =  SDL_CreateWindow(&title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1000, 1000, SDL_WINDOW_BORDERLESS);
 
 	myRenderer = SDL_CreateRenderer(myWindow, -1, SDL_RENDERER_ACCELERATED);
 

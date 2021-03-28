@@ -16,7 +16,7 @@ void HL_GameWorld::Init()
        //aGameContainerSquare.ChangeColour(0, 0, 255, 255);
     
     renderingRectangle.x = 0; renderingRectangle.y = 0;
-    renderingRectangle.w = 3; renderingRectangle.h = 3;
+    renderingRectangle.w = cellEdgeLength; renderingRectangle.h = cellEdgeLength;
 
     for (int i = 0; i < gWorldSize; i++)
     {
@@ -40,72 +40,136 @@ void HL_GameWorld::Init()
 
 }
 
+void HL_GameWorld::ChangeState()
+{
+    if ((mouseX >= 0) && (mouseY >= 0))
+    {
+        int xcell = mouseX/cellEdgeLength;
+        int ycell = mouseY / cellEdgeLength;
+
+        gWorld[xcell][ycell] = !gWorld[xcell][ycell];
+        SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Cell Changed: (%i, %i)",xcell,ycell);
+    }
+}
+
 void HL_GameWorld::Input()
 {
     SDL_Event _event;
     while (SDL_PollEvent(&_event))
     {
-        
+        if (_event.type == SDL_QUIT)
+        {
+            done = true;
+        }
+
+        if (_event.type == SDL_KEYDOWN && _event.key.repeat == NULL)
+        {
+            switch (_event.key.keysym.sym)
+                case SDLK_w:
+                    paused = !paused;
+                    SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Pause Button Pressed!");
+        }
+
+        if (paused)
+        {
+            if (_event.type == SDL_MOUSEMOTION)
+            {
+                mouseX = _event.motion.x;
+                mouseY = _event.motion.y;
+               // SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "MOUSE POSITION = (%i,%i)", mouseX, mouseY);
+            }
+
+            if (_event.type == SDL_MOUSEBUTTONDOWN)
+            {
+                if (_event.button.button == SDL_BUTTON_LEFT)
+                {
+                    ChangeState();
+                }
+            }
+
+
+        }
         
     }
 }
 
+int HL_GameWorld::randColorElement()
+{
+    int r = rand() % 255 + 1;
+
+
+    return r;
+
+
+
+
+}
+
 void HL_GameWorld::Update()
 {
-    SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Neighbours of [9,0] = (%i) ", countNeighbour(9, 0));
-    SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Neighbours of [10,0] = (%i) ", countNeighbour(10, 0));
-    SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Neighbours of [11,1] = (%i) ", countNeighbour(11, 1));
-
-    
-    for (int i = 0; i < gWorldSize; i++)
+    if(!paused)
     {
-        for (int j = 0; j < gWorldSize; j++)
+
+
+        SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Neighbours of [9,0] = (%i) ", countNeighbour(9, 0));
+        SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Neighbours of [10,0] = (%i) ", countNeighbour(10, 0));
+        SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Neighbours of [11,1] = (%i) ", countNeighbour(11, 1));
+
+
+        for (int i = 0; i < gWorldSize; i++)
         {
-            int neighbours = countNeighbour(i, j);
-            gNewWorld[i][j] = gWorld[i][j];
-            if (neighbours < 2)
+            for (int j = 0; j < gWorldSize; j++)
             {
-                gNewWorld[i][j] = false;
-            }
-            else if ((neighbours == 2 || neighbours == 3)&&(gWorld[i][j]))
-            {
-                continue;
-            }
-            else if (neighbours > 3)
-            {
-                gNewWorld[i][j] = false;
+                int neighbours = countNeighbour(i, j);
+                gNewWorld[i][j] = gWorld[i][j];
+                if (neighbours < 2)
+                {
+                    gNewWorld[i][j] = false;
+                }
+                else if ((neighbours == 2 || neighbours == 3) && (gWorld[i][j]))
+                {
+                    continue;
+                }
+                else if (neighbours > 3)
+                {
+                    gNewWorld[i][j] = false;
+
+                }
+
+                else if ((neighbours == 3) && (!gWorld[i][j]))
+                {
+                    gNewWorld[i][j] = true;
+                }
+
 
             }
-
-            else if ((neighbours == 3) && (!gWorld[i][j]))
+        }
+        for (int i = 0; i < gWorldSize; i++)
+        {
+            for (int j = 0; j < gWorldSize; j++)
             {
-                gNewWorld[i][j] = true;
+                gWorld[i][j] = gNewWorld[i][j];
             }
-
-
         }
     }
-    for (int i = 0; i < gWorldSize; i++)
-    {
-        for (int j = 0; j < gWorldSize; j++)
-        {
-            gWorld[i][j] = gNewWorld[i][j];
-        }
-    }
+
+
 
 }
 
 void HL_GameWorld::WorldRendering()
 {
-    for (int i = 0; i < gWorldSize; i++)
-    {
-        for (int j = 0; j < gWorldSize; j++)
+    
+        for (int i = 0; i < gWorldSize; i++)
         {
-            renderingRectangle.x = (i * renderingRectangle.w);
-            renderingRectangle.y = (j * renderingRectangle.h);
-            RenderPoint(i, j);
+            for (int j = 0; j < gWorldSize; j++)
+            {
+                renderingRectangle.x = (i * renderingRectangle.w);
+                renderingRectangle.y = (j * renderingRectangle.h);
+                RenderPoint(i, j);
+            }
         }
-    }
+    
 
 }
 
@@ -120,7 +184,7 @@ void HL_GameWorld::RenderPoint(int i, int j)
     }
     else
     {
-        SDL_SetRenderDrawColor(renderer, 0, 255, 0, 255);
+        SDL_SetRenderDrawColor(renderer, 0, 0,0, 255);
         SDL_RenderFillRect(renderer, &renderingRectangle);
     }
 
@@ -133,6 +197,7 @@ void HL_GameWorld::Render()
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 250);
 
     SDL_RenderClear(renderer);
+
     WorldRendering();
 
 
@@ -172,7 +237,8 @@ void HL_GameWorld::Run()
 
         }
 
-        SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Frame Time = %i", timer->getTicks());
+        ///GAME LOOP TIME LOGGER///
+        //SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Frame Time = %i", timer->getTicks());
 
     }
     Quit();
@@ -181,7 +247,7 @@ void HL_GameWorld::Run()
 
 void HL_GameWorld::Quit()
 {
-    delete &aGameContainerSquare;
+   
 }
 
 
