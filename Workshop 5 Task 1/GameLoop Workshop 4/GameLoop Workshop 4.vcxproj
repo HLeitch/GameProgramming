@@ -147,6 +147,7 @@
     <ClCompile Include="HL_Rectangle.cpp" />
     <ClCompile Include="HL_Square.cpp" />
     <ClCompile Include="HL_Timer.cpp" />
+    <ClCompile Include="HL_Vector2D.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -157,6 +158,7 @@
     <ClInclude Include="HL_Rectangle.h" />
     <ClInclude Include="HL_Square.h" />
     <ClInclude Include="HL_Timer.h" />
+    <ClInclude Include="HL_Vector2D.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

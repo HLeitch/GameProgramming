@@ -2,6 +2,7 @@
 #include "SDL.h"
 
 #include <iostream>
+#include "HL_Vector2D.h"
 class HL_GameWorld;
 
 class HL_GameObject
@@ -20,6 +21,10 @@ public:
 	int SquareCounter;
 
 	HL_GameWorld* parent;
+
+private:
+	SDL_Rect rect;
+	HL_Vector2D velocity;
 
 };
 

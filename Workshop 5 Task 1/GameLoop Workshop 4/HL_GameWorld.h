@@ -7,6 +7,7 @@
 #include "HL_Timer.h"
 #include "GameWindow.h"
 #include "HL_Square.h"
+#include "HL_Vector2D.h"
 
 #define MAX_KEYS (256)
 #define MOVE_LEFT 'w'

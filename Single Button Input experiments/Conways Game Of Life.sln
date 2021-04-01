@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameLoop Workshop 4", "GameLoop Workshop 4\GameLoop Workshop 4.vcxproj", "{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Debug|x64.ActiveCfg = Debug|x64
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Debug|x64.Build.0 = Debug|x64
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Debug|x86.Build.0 = Debug|Win32
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Release|x64.ActiveCfg = Release|x64
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Release|x64.Build.0 = Release|x64
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Release|x86.ActiveCfg = Release|Win32
+		{A2E0F3EA-9D24-48DA-81F9-5C64DB3550BA}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B4BFDB6-0A10-4E91-B13E-DBDD82FD1276}
+	EndGlobalSection
+EndGlobal

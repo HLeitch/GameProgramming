@@ -42,6 +42,9 @@
     <ClCompile Include="HL_GameContainerSquare.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="HL_Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HL_Timer.h">
@@ -63,6 +66,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HL_GameContainerSquare.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HL_Vector2D.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
