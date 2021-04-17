@@ -1,16 +1,17 @@
 #pragma once
 #include <SDL.h>
 #include <vector>
-#include "HL_GameContainerSquare.h"
+#include "HL_GameObjectContainer.h"
+#include "HL_RhythmObjectContainer.h"
 #include "HL_GameObject.h"
 #include "HL_Rectangle.h"
 #include "HL_Timer.h"
 #include "GameWindow.h"
 #include "HL_Square.h"
 #include "HL_Vector2D.h"
+#include "HL_FileLogger.h"
 
 #define MAX_KEYS (256)
-#define gWorldSize (300)
 
 
 class HL_GameWorld
@@ -21,8 +22,9 @@ private:
 	HL_Timer* timer;
 
 	//Time between updates. Will change framerate if modified
-	const int delta_Time = 3;
-	
+	const int delta_Time = 33;
+	int lastDeltaTime;
+
 	// If true, disables game loop.
 	bool done = false;
 
@@ -35,46 +37,46 @@ public:
 
 	void Init();
 
-	void ChangeState();
-
 	void Input();
-	int randColorElement();
 	void Update();
-	void WorldRendering();
-	void RenderPoint(int i, int j);
+	void RhythmReset();
 	void Render();
-	
+
 	//Creates game loop
 	void Run();
-	
+
 
 	void Quit();
 
-	int countNeighbour(int cellx, int celly);
-	bool paused = false;
-	
-	int cellEdgeLength = 4;
-
-	int mouseX = 0;
-	int mouseY = 0;
-	
+	int randColorElement();
 
 	//keyboard Handler
-    bool gKeys[MAX_KEYS];
-
-	bool gWorld[gWorldSize][gWorldSize];
-	bool gNewWorld[gWorldSize][gWorldSize];
-
-	int chanceOfAliveAtStart = 50;
-
-	SDL_Rect renderingRectangle;
+	bool gKeys[MAX_KEYS];
 
 	/////////////////////////
 	//GAMEOBJECTS 
 
-	HL_GameContainerSquare aGameContainerSquare;
+	int gameTime = 30000;
 
+	int timerWidth = 800;
+
+	int gameRoundTimer = 0;
+
+	int maxGameRoundTime = 3000;
+
+	/// <summary>
+	/// Time Since game start in ms
+	/// </summary>
+	int gameTimer = 0;
+
+	HL_GameObject* timerBar;
 	
+	HL_GameObject* indicatorSquare;
+
+	HL_GameObjectContainer aGameContainerSquare;
+	HL_RhythmObjectContainer* rhythmObjects;
+
+
 	/////////////////////////
 };
 

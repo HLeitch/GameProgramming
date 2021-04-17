@@ -39,10 +39,22 @@
     <ClCompile Include="HL_Square.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HL_GameContainerSquare.cpp">
+    <ClCompile Include="HL_GameObjectContainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="HL_Vector2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HL_RhythmObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HL_RhythmObjectContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HL_FileLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,10 +77,19 @@
     <ClInclude Include="HL_Square.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HL_GameContainerSquare.h">
+    <ClInclude Include="HL_GameObjectContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HL_Vector2D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HL_RhythmObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HL_RhythmObjectContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HL_FileLogger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

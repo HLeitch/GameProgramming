@@ -9,17 +9,17 @@ GameWindow::GameWindow(const char &title)
 
 	}
 
-	myWindow =  SDL_CreateWindow(&title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1000, 1000, SDL_WINDOW_BORDERLESS);
+	myWindow =  SDL_CreateWindow(&title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1000, 1000, SDL_WINDOW_RESIZABLE);
 
 	myRenderer = SDL_CreateRenderer(myWindow, -1, SDL_RENDERER_ACCELERATED);
 
 }
 GameWindow::GameWindow(const char& title, int w, int h)
 {
-	if (initWindow() == 0);
+	if (initWindow() != 0);
 	{
-		std::printf("Initialised window\n");
-
+		
+		SDL_Log("Unable to initalise SDL:%x\n", SDL_GetError());
 
 	}
 

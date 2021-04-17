@@ -1,13 +1,13 @@
 #pragma once
-#include "HL_Square.h"
+#include "HL_GameObject.h"
 #include <vector>
 #include <iostream>
 #include "SDL.h"
-class HL_GameContainerSquare
+class HL_GameObjectContainer
 {
 public:
-	HL_GameContainerSquare();
-	~HL_GameContainerSquare();
+	HL_GameObjectContainer();
+	~HL_GameObjectContainer();
 
 	void Init(int eY, int eX, float eDirX, float eDirY, int eNum);
 	void Add(int X, int Y);
@@ -17,9 +17,9 @@ public:
 	void Update();
 	void Input(SDL_Event _event);
 
-	void ChangeColour(int r, int g, int b, int a);
+	void ChangeColour(int r, int g, int b);
 
-	std::vector<HL_Square*> aListofSquares;
+	std::vector<HL_GameObject*> aListofGameObjects;
 	int X, Y, Num;
 	float dirX, dirY;
 

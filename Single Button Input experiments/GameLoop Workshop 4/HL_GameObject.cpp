@@ -11,10 +11,13 @@ void HL_GameObject::Init(int xpos, int ypos, int w, int h)
 
 	this->R = 0;
 	this->G = 0;
-	this->B = 0;
+	this->B = 255;
+
+	myRect = new SDL_Rect();
+
 }
 
-void HL_GameObject::Input(SDL_Event)
+void HL_GameObject::Input(SDL_Event _event)
 {
 	{
 		if (_event.type == SDL_QUIT)
@@ -26,20 +29,13 @@ void HL_GameObject::Input(SDL_Event)
 			case SDLK_ESCAPE:
 
 				break;
-			case SDLK_w:
-				printf("Square: MOVING UP \n");
-				up = true;
-				break;
-			case SDLK_s:
-				printf("Square: MOVING DOWN\n");
-				down = true;
-				break;
+
 			case SDLK_a:
-				printf("Square: Moving LEFT\n");
+				printf("GameObject: Moving LEFT\n");
 				MOVE_LEFT= true;
 				break;
 			case SDLK_d:
-				printf("Square: MOVING RIGHT\n");
+				printf("GameObject: MOVING RIGHT\n");
 				MOVE_RIGHT = true;
 				break;
 			}
@@ -50,21 +46,14 @@ void HL_GameObject::Input(SDL_Event)
 			case SDLK_ESCAPE:
 
 				break;
-			case SDLK_w:
-				printf("Square: NO LONGER MOVING UP \n");
-				up = false;
-				break;
-			case SDLK_s:
-				printf("Square: NO LONGER MOVING DOWN\n");
-				down = false;
-				break;
+			
 			case SDLK_a:
-				printf("Square: NO LONGER Moving LEFT\n");
-				left = false;
+				printf("GameObject: NO LONGER Moving LEFT\n");
+				MOVE_LEFT = false;
 				break;
 			case SDLK_d:
-				printf("Square: NO LONGER MOVING RIGHT\n");
-				right = false;
+				printf("GameObject: NO LONGER MOVING RIGHT\n");
+				MOVE_RIGHT = false;
 				break;
 			}
 		}
@@ -78,7 +67,15 @@ void HL_GameObject::Update()
 
 void HL_GameObject::Render(SDL_Renderer* theRenderer)
 {
-	printf("Default Render() function called");
+	SDL_SetRenderDrawColor(theRenderer, R, G, B, 255);
+
+	myRect->x = x;
+	myRect->y = y;
+	myRect->w = width;
+	myRect->h = height;
+
+	SDL_RenderFillRect(theRenderer, myRect);
+	
 }
 
 HL_GameObject::HL_GameObject()

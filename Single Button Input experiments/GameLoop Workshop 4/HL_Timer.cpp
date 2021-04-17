@@ -12,7 +12,7 @@ HL_Timer::HL_Timer()
 /// </summary>
 void HL_Timer::resetTicksTimer()
 {
-
+	totalTicksSinceStart += getTicks();
 
 	startTicks = SDL_GetTicks();
 

@@ -24,7 +24,7 @@
     <ProjectGuid>{a2e0f3ea-9d24-48da-81f9-5c64db3550ba}</ProjectGuid>
     <RootNamespace>GameLoopWorkshop4</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Conways Game Of Life</ProjectName>
+    <ProjectName>Single Button Inputs</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,26 +140,33 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FileLogger.cpp" />
+    <ClCompile Include="HL_FileLogger.cpp" />
     <ClCompile Include="GameLoop Workshop 4.cpp" />
     <ClCompile Include="GameWindow.cpp" />
-    <ClCompile Include="HL_GameContainerSquare.cpp" />
+    <ClCompile Include="HL_GameObjectContainer.cpp" />
     <ClCompile Include="HL_GameObject.cpp" />
     <ClCompile Include="HL_GameWorld.cpp" />
     <ClCompile Include="HL_Rectangle.cpp" />
+    <ClCompile Include="HL_RhythmObjectContainer.cpp" />
     <ClCompile Include="HL_Square.cpp" />
     <ClCompile Include="HL_Timer.cpp" />
     <ClCompile Include="HL_Vector2D.cpp" />
+    <ClCompile Include="HL_RhythmObject.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HL_FileLogger.h" />
     <ClInclude Include="GameWindow.h" />
-    <ClInclude Include="HL_GameContainerSquare.h" />
+    <ClInclude Include="HL_GameObjectContainer.h" />
     <ClInclude Include="HL_GameObject.h" />
     <ClInclude Include="HL_GameWorld.h" />
     <ClInclude Include="HL_Rectangle.h" />
+    <ClInclude Include="HL_RhythmObjectContainer.h" />
     <ClInclude Include="HL_Square.h" />
     <ClInclude Include="HL_Timer.h" />
     <ClInclude Include="HL_Vector2D.h" />
+    <ClInclude Include="HL_RhythmObject.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

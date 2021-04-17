@@ -17,6 +17,7 @@ public:
 
 	void resetTicksTimer();
 	int getTicks();
+	int totalTicksSinceStart =0;
 
 };
 

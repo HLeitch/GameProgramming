@@ -9,7 +9,8 @@
 //#include "HL_Rectangle.h"
 
 #include "HL_GameWorld.h"
-//#include "HL_Square.h"
+//#include "HL_GameObject.h"
+#include "HL_FileLogger.h"
 
 //key press tracker
 #define max_KEYS (256)
@@ -20,7 +21,7 @@ bool gKeys[MAX_KEYS];
 
 SDL_Event _event;
 
-HL_Square* theSquare;
+HL_GameObject* theGameObject;
 
 bool done = false;
 
@@ -35,7 +36,7 @@ void Init()
 
 void Input()
 {
-    while (SDL_PollEvent(&_event))
+    /*while (SDL_PollEvent(&_event))
     {
         if (_event.type == SDL_QUIT)
             done = true;
@@ -73,7 +74,7 @@ void Input()
         }
 
 
-    }
+    }*/
 
 }
 int Speed = 8;
@@ -146,6 +147,10 @@ HL_GameWorld myworld;
 
 int main(int argc, char* argv[])
 {
+
+    HL_FileLogger* logger = new HL_FileLogger("logging/Log.txt");
+
+
     if (SDL_Init(SDL_INIT_EVERYTHING) < 0)
     {
         return 1;

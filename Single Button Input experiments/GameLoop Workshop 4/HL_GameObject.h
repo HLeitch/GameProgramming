@@ -4,6 +4,9 @@
 #include <iostream>
 class HL_GameWorld;
 
+/// <summary>
+/// Class which can render a rect on the screen.
+/// </summary>
 class HL_GameObject
 {
 public:
@@ -27,8 +30,9 @@ public:
 
 	HL_GameWorld* parent;
 
-private:
-	SDL_Rect rect;
+	SDL_Rect* myRect;
 	HL_Vector2D velocity;
+private:
+
 };
 

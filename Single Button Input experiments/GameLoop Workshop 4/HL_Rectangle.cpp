@@ -20,7 +20,7 @@ void HL_Rectangle::Input(int whichKey)
 {
 	switch (whichKey)
 	{
-	case 'w': {printf("Square: W is pressed \n"); 
+	case 'w': {printf("GameObject: W is pressed \n"); 
 		
 		moving = false;
 
