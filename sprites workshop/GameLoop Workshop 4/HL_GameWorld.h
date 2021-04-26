@@ -10,8 +10,11 @@
 #include "HL_Square.h"
 #include "HL_Vector2D.h"
 #include "HL_FileLogger.h"
+#include "HL_SimpleSprite.h"
+#include <SDL_image.h>
 
 #define MAX_KEYS (256)
+
 
 
 class HL_GameWorld
@@ -19,7 +22,7 @@ class HL_GameWorld
 private:
 	//Timer things
 
-	HL_Timer* timer;
+	HL_Timer* timer = &gTimer;
 
 	//Time between updates. Will change framerate if modified
 	const int delta_Time = 15;
@@ -34,6 +37,7 @@ public:
 	SDL_Renderer* renderer;
 	SDL_Event _event;
 
+	HL_GameWorld();
 
 	void Init();
 
@@ -75,8 +79,15 @@ public:
 
 	HL_GameObjectContainer aGameContainerSquare;
 	HL_RhythmObjectContainer* rhythmObjects;
-
-
+	
+	SimpleSprite testSprite = SimpleSprite( 0,0,17,18);
+	
+	
+	int Sprite_Height = 18;
+	int Sprite_Width = 17;
+	int Sprite_Frame = 0;
+	int sprite_NumFrames = 4;
+	int spritePlaybackRate = 75;
 	/////////////////////////
 };
 

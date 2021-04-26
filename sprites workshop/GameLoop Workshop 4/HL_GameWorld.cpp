@@ -1,19 +1,26 @@
 #include "HL_GameWorld.h"
 #include <math.h>
 
-
+HL_GameWorld::HL_GameWorld()
+{
+}
 
 void HL_GameWorld::Init()
 {
     
 
-    GameWindow* gameWindow = new GameWindow("Harrison Leitch");
+    GameWindow* gameWindow = new GameWindow('n');
     if (gameWindow != NULL)
     {
         SDL_LogInfo(SDL_LOG_CATEGORY_RENDER, "gameworld: created a new window");
     }
     renderer = gameWindow->myRenderer;
     SDL_LogInfo(SDL_LOG_CATEGORY_RENDER, "Render pointer in gameWorld : %p", &renderer);
+
+    if (IMG_Init(SDL_INIT_EVERYTHING) == 0)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_ERROR, "SDL_Image Library failed to intitialise");
+    }
 
     timerBar = new HL_GameObject;
     indicatorSquare = new HL_GameObject;
@@ -27,10 +34,12 @@ void HL_GameWorld::Init()
     timerBar->SetColour(255, 0, 0);
     indicatorSquare->SetColour(0, 0, 255);
 
+    SDL_Rect myRect = { 0,0,100,100 };
 
+   
+    testSprite.load(renderer, "Content/spritesheet.png");
 
-
-    timer = new HL_Timer();
+    timer = &gTimer;
 
     RhythmReset();
 
@@ -41,37 +50,46 @@ void HL_GameWorld::Input()
     SDL_Event _event;
     while (SDL_PollEvent(&_event))
     {
-		if (_event.type == SDL_QUIT)
-		{
+        if (_event.type == SDL_QUIT)
+        {
             done = true;
 
-		}
-		if (_event.type == SDL_KEYDOWN) {
-			if (!gKeys[_event.key.keysym.sym]) {
-                SDL_LogInfo(SDL_LOG_CATEGORY_INPUT,"Key Pressed: %s Key number = %i", SDL_GetScancodeName(_event.key.keysym.scancode), _event.key.keysym.sym);
-				gKeys[_event.key.keysym.sym] = true;
-			}
-			else {
-                SDL_LogInfo(SDL_LOG_CATEGORY_INPUT,"Key Held: %s Key number = %i", SDL_GetScancodeName(_event.key.keysym.scancode), _event.key.keysym.sym);
+        }
+        if (_event.type == SDL_KEYDOWN) {
+            if (!gKeys[_event.key.keysym.sym]) {
+                SDL_LogInfo(SDL_LOG_CATEGORY_INPUT, "Key Pressed: %s Key number = %i", SDL_GetScancodeName(_event.key.keysym.scancode), _event.key.keysym.sym);
+                gKeys[_event.key.keysym.sym] = true;
 
-			}
-		}
 
+            }
+            else {
+                SDL_LogInfo(SDL_LOG_CATEGORY_INPUT, "Key Held: %s Key number = %i", SDL_GetScancodeName(_event.key.keysym.scancode), _event.key.keysym.sym);
+
+            }
+        }
+        if (gKeys[SDLK_w])
+        {
+             Sprite_Frame++;
+        }
+        if (gKeys[SDLK_s])
+        {
+             Sprite_Frame--;
+        }
 
 
 		if (_event.type == SDL_KEYUP) {
             SDL_LogInfo(SDL_LOG_CATEGORY_INPUT, "Key Released : %s Key number = %i", SDL_GetScancodeName(_event.key.keysym.scancode), _event.key.keysym.sym);
-			gKeys[_event.key.keysym.sym] = false;
-		}
+gKeys[_event.key.keysym.sym] = false;
+        }
 
-		rhythmObjects->Input(_event);
+        rhythmObjects->Input(_event);
 
         //WINDOW EVENTS
         if (_event.type == SDL_WINDOWEVENT)
         {
             if (_event.window.event == SDL_WINDOWEVENT_MOVED)
             {
-                SDL_LogInfo(SDL_LOG_CATEGORY_VIDEO,"Window moved to (%i,%i)", _event.window.data1, _event.window.data2);
+                SDL_LogInfo(SDL_LOG_CATEGORY_VIDEO, "Window moved to (%i,%i)", _event.window.data1, _event.window.data2);
             }
             if (_event.window.event == SDL_WINDOWEVENT_SIZE_CHANGED)
             {
@@ -93,32 +111,32 @@ void HL_GameWorld::Update()
 {
     gameTimer += lastDeltaTime;
 
-    
-    //old c
-   
 
-    
-    float percentTimeUsed= gameTimer;
+    //old c
+
+
+
+    float percentTimeUsed = gameTimer;
 
     percentTimeUsed /= gameTime;
 
     float width = (1 - percentTimeUsed) * timerWidth;
 
-    
+
     timerBar->width = width;
-    
+
     gameRoundTimer += lastDeltaTime;
-    
+
     if (gameRoundTimer > maxGameRoundTime)
     {
         RhythmReset();
-      indicatorSquare->SetColour(0,0,255);
+        indicatorSquare->SetColour(0, 0, 255);
     }
-    if(rhythmObjects->activeObjects == rhythmObjects->PressedObjects())
+    if (rhythmObjects->activeObjects == rhythmObjects->PressedObjects())
     {
-      
+
         indicatorSquare->SetColour(0, 255, 0);
-  }
+    }
     if (rhythmObjects->activeObjects < rhythmObjects->PressedObjects())
     {
         indicatorSquare->SetColour(255, 0, 0);
@@ -128,7 +146,8 @@ void HL_GameWorld::Update()
 
     rhythmObjects->Update();
 
-
+    testSprite.update(gTimer.deltaTime);
+    
 }
 
 void HL_GameWorld::RhythmReset()
@@ -137,7 +156,7 @@ void HL_GameWorld::RhythmReset()
     {
         ro->active = false;
         ro->pressed = false;
-        
+
     }
     rhythmObjects->roundCounter = 0;
 
@@ -153,6 +172,7 @@ void HL_GameWorld::RhythmReset()
     gameRoundTimer = 0;
 }
 
+
 void HL_GameWorld::Render()
 {
     SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255);
@@ -166,6 +186,7 @@ void HL_GameWorld::Render()
     indicatorSquare->Render(renderer);
     rhythmObjects->Render(renderer);
 
+    testSprite.render(renderer);
 
     SDL_RenderPresent(renderer);
 }
@@ -210,19 +231,23 @@ void HL_GameWorld::Run()
         }
 
         lastDeltaTime = timer->getTicks();
+        timer->deltaTime = timer->getTicks();
+        
         SDL_LogInfo(SDL_LOG_CATEGORY_RENDER, "last frame time: %i (FPS = %i) ", timer->getTicks(),(1000/lastDeltaTime));
 
         
     }
+
+    SDL_LogError(SDL_LOG_PRIORITY_ERROR, "GameLoop Sequence Broken");
     Quit();
     
 }
 
 void HL_GameWorld::Quit()
 {
+    IMG_Quit();
    
-
-    delete& aGameContainerSquare;
+   //delete& aGameContainerSquare;
      SDL_Quit();
 
 }

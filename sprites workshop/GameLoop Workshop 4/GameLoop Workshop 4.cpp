@@ -11,6 +11,7 @@
 #include "HL_GameWorld.h"
 //#include "HL_GameObject.h"
 #include "HL_FileLogger.h"
+#include "SDL_image.h"
 
 //key press tracker
 #define max_KEYS (256)

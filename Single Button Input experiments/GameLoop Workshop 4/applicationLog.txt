@@ -1,0 +1,23 @@
+[22/04/21 16:31:10] Log Files Created Successfully
+[22/04/21 16:31:10] INTIALISATION STARTED
+[22/04/21 16:31:11] Default GameObject Constructor called (3de0d48)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de0bc8)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de0d48)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de0bc8)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de19c8)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de19c8)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de10c8)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de10c8)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de1248)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de1248)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de12c8)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de12c8)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de1648)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de1648)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de0ac8)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de0ac8)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de0fc8)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de0fc8)
+[22/04/21 16:31:11] Default GameObject Constructor called (3de1448)
+[22/04/21 16:31:11] An object initialised- Default GameObject (3de1448)
+[22/04/21 16:31:11] INTIALISATION FINISHED

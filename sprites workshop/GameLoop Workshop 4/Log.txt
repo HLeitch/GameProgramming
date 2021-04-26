@@ -1,0 +1,1389 @@
+[26/04/21 19:53:11] [APPLICATION] Log Files Created Successfully
+[26/04/21 19:53:11] [ERROR] THIS IS A TEST ERROR. ALL IS GOOD DO NOT WORRY
+[26/04/21 19:53:11] [APPLICATION] INTIALISATION STARTED
+[26/04/21 19:53:11] [VIDEO] Initialised window
+[26/04/21 19:53:11] [RENDER] Created renderer: direct3d
+[26/04/21 19:53:11] [VIDEO] Window and Renderer Created: (1139d20) (1139d24)
+[26/04/21 19:53:11] [RENDER] gameworld: created a new window
+[26/04/21 19:53:11] [RENDER] Render pointer in gameWorld : a1794
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b2e20)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b3120)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b2e20)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b3120)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b3720)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b3720)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b2b20)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b2b20)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b36a0)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b36a0)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b3820)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b3820)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b32a0)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b32a0)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b2ba0)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b2ba0)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b38a0)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b38a0)
+[26/04/21 19:53:11] [APPLICATION] Default GameObject Constructor called (11b4420)
+[26/04/21 19:53:11] [APPLICATION] An object initialised- Default GameObject (11b4420)
+[26/04/21 19:53:11] [VIDEO] loaded sprite while loading content/sprite.png using IMG_LoadTexture
+[26/04/21 19:53:11] [APPLICATION] INTIALISATION FINISHED
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 64
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION]  New frame 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 64
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 80
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:11] [APPLICATION]  New frame 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:11] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:11] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:11] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 91
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 64
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 80
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 96
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 45
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 60
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 75
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 90
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION]  New frame 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:12] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:12] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:12] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 17 (FPS = 58) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 64
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 80
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 91
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 64
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 80
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 96
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:13] [APPLICATION]  New frame 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:13] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:13] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:13] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 45
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 91
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 64
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:14] [APPLICATION]  New frame 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:14] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:14] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:14] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 48
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 45
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 91
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 78
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 45
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 60
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 91
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:15] [APPLICATION]  New frame 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:15] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:15] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:15] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 94
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 45
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 93
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 63
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 79
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 95
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 15
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 30
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 45
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 61
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 76
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 91
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 32
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 46
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 92
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION]  New frame 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 0
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 16
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 31
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 16 (FPS = 62) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 47
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:16] [APPLICATION] TimeElapsed = 62
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:16] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:16] [RENDER] last frame time: 15 (FPS = 66) 
+[26/04/21 19:53:17] [APPLICATION] TimeElapsed = 77
+[26/04/21 19:53:17] [RENDER] Rendered object: Default GameObject (11b2e20)
+[26/04/21 19:53:17] [RENDER] Rendered object: Default GameObject (11b3120)
+[26/04/21 19:53:17] [RENDER] last frame time: 222 (FPS = 4) 
+[26/04/21 19:53:17] [VIDEO] GameLoop Sequence Broken

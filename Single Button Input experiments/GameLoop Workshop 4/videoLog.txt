@@ -1,0 +1,2 @@
+[22/04/21 16:31:10] Initialised window
+[22/04/21 16:31:11] Window and Renderer Created: (c4cb98) (c4cb9c)
