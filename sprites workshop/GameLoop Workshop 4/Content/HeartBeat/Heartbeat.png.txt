@@ -1,0 +1,1 @@
+Heartbeat_01.png.png 3 7, Heartbeat_02.png.png 67 7, Heartbeat_03.png.png 135 11.

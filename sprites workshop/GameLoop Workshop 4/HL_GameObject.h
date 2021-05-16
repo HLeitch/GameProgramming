@@ -1,8 +1,11 @@
 #pragma once
 #include "SDL.h"
 #include "HL_Vector2D.h"
+#include "TextureManager.h"
+#include "HL_Timer.h"
 #include <iostream>
 class HL_GameWorld;
+class SimpleSprite;
 
 /// <summary>
 /// Class which can render a rect on the screen.
@@ -32,7 +35,11 @@ public:
 
 	SDL_Rect* myRect;
 	HL_Vector2D velocity;
-private:
+protected:
 	std::string _objectName;
+	//global texture manager
+	TextureManager* theTextureManager;
+	//current texture in gameobject
+	SimpleSprite* sprite;
 };
 

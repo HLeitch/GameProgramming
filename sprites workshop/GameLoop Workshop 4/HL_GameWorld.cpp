@@ -1,9 +1,42 @@
 #include "HL_GameWorld.h"
 #include <math.h>
+//Global music and sound files
+Mix_Chunk* SOUND_aShot = NULL; //sound effects just use .wav for saftey
+Mix_Music* SOUND_BackgroundMusic = NULL;
+
+int CountDownTime = 1000;
+void* HandleOneSecondTimerInterval(void)
+{
+    CountDownTime -= 1;
+    if (CountDownTime < 0) CountDownTime = 0;
+    return NULL;
+}
+
+Uint32 HeartBeatTimer(Uint32 interval, void* param)
+{
+
+    SDL_Log("HeartBeat Event pushed");
+    Mix_PlayChannel(-1, SOUND_aShot, 0);
+    CountDownTime -= 1;
+    if (CountDownTime < 0) CountDownTime = 0;
+
+    SDL_Event userEvent;
+    userEvent.type = SDL_USEREVENT;
+    userEvent.user.code = 0;
+
+    SDL_PushEvent(&userEvent);
+    SDL_Log("Heartbeat Timer = %i", CountDownTime);
+
+
+    return CountDownTime;
+
+}
+
 
 HL_GameWorld::HL_GameWorld()
 {
 }
+
 
 void HL_GameWorld::Init()
 {
@@ -22,6 +55,11 @@ void HL_GameWorld::Init()
         SDL_LogError(SDL_LOG_CATEGORY_ERROR, "SDL_Image Library failed to intitialise");
     }
 
+    TextureManager* theTextureManager = TextureManager::GetInstance();
+    theTextureManager->SetRenderer(renderer);
+    theTextureManager->LoadAllTexturesFromDirectory("Content/",true);
+
+
     timerBar = new HL_GameObject;
     indicatorSquare = new HL_GameObject;
     rhythmObjects = new HL_RhythmObjectContainer;
@@ -35,14 +73,26 @@ void HL_GameWorld::Init()
     indicatorSquare->SetColour(0, 0, 255);
 
     SDL_Rect myRect = { 0,0,100,100 };
-
    
-    testSprite.load(renderer, "Content/spritesheet.png");
+    SDL_AddTimer(1000, &HeartBeatTimer, NULL);
+    
 
     timer = &gTimer;
 
     RhythmReset();
 
+    if (Mix_OpenAudio(222050, MIX_DEFAULT_FORMAT, 8, 4096) == -1)
+    {
+        SDL_LogError(SDL_LOG_CATEGORY_AUDIO, "Failed to load audio!");
+
+    }
+    else {
+        // . needed for directory location
+        SOUND_aShot = Mix_LoadWAV("./content/HeartBeat/heartbeat.wav");
+        SOUND_BackgroundMusic = Mix_LoadMUS("./content/shortMusic.mp3");
+
+        Mix_PlayMusic(SOUND_BackgroundMusic, -1);
+    }
 }
 
 void HL_GameWorld::Input()
@@ -75,7 +125,28 @@ void HL_GameWorld::Input()
         {
              Sprite_Frame--;
         }
+        if (gKeys[SDLK_m])
+        {
+            
 
+            if (Mix_PausedMusic() != 0)
+            {
+                Mix_ResumeMusic(); //(SOUND_BackgroundMusic, -1);
+            }
+            else
+            {
+                Mix_PauseMusic();
+            }
+        }
+        if (gKeys[SDLK_h])
+        {
+            if (CountDownTime < 1500)CountDownTime += 100;
+
+        }
+        if (gKeys[SDLK_j])
+        {
+            if (CountDownTime > 200)CountDownTime -= 100;
+        }
 
 		if (_event.type == SDL_KEYUP) {
             SDL_LogInfo(SDL_LOG_CATEGORY_INPUT, "Key Released : %s Key number = %i", SDL_GetScancodeName(_event.key.keysym.scancode), _event.key.keysym.sym);
@@ -186,7 +257,7 @@ void HL_GameWorld::Render()
     indicatorSquare->Render(renderer);
     rhythmObjects->Render(renderer);
 
-    testSprite.render(renderer);
+ 
 
     SDL_RenderPresent(renderer);
 }
@@ -245,6 +316,12 @@ void HL_GameWorld::Run()
 
 void HL_GameWorld::Quit()
 {
+    Mix_FreeChunk(SOUND_aShot);
+    SOUND_aShot = NULL;
+    Mix_FreeMusic(SOUND_BackgroundMusic);
+    SOUND_BackgroundMusic = NULL;
+    delete TextureManager::GetInstance();
+
     IMG_Quit();
    
    //delete& aGameContainerSquare;

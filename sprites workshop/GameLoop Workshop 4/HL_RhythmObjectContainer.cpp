@@ -43,6 +43,7 @@ void HL_RhythmObjectContainer::Update()
 	{
 		for (HL_RhythmObject* square : aListofRhythmObjects)
 		{
+			square->Update();
 			//square->myRect->x++;
 		}
 	}

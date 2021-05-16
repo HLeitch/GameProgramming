@@ -1,25 +1,25 @@
 //#include "stdafx.h"
 #include "HL_SimpleSprite.h"
-#include "HL_Timer.h"
-#include "SDL_Image.h"	// we need this for texture loading function
+
 
 // default constructor isn't needed as all member variables are given default values already
 
-// constructor that takes X,Y position and width/height values for sprite (src Rect will be calculated from them based on current frame)
-// X is the starting X position, Y is the starting Y position to draw on screen. Width and Height are the size of a single frame of the sprite
-// todo: think if we need to add more data here? Should we have scale? Should we have an offset value?? (so the sprite is centered at X,Y)
+
 SimpleSprite::SimpleSprite(int x, int y, int widthPixels, int heightPixels)
 {
-	frameWidthPixels = widthPixels;
-	frameHeightPixels = heightPixels;
-	frameIndex = 0;
-	srcRect.x = frameIndex * frameWidthPixels;
-	srcRect.y = 0;
-	srcRect.w = frameWidthPixels;
-	srcRect.h = frameHeightPixels;
+}
 
-	xscale = 3;
-	yscale = 3;
+SimpleSprite::SimpleSprite(std::string sequence = "")
+{
+	theTextureManager = TextureManager::GetInstance();
+
+	if (sequence != "")
+	{
+
+		animation = theTextureManager->GetSequence(sequence);
+
+
+	}
 }
 
 // here you should safely handle any memory you allocated.. remember you are loading textures? Do they need cleaning up?
@@ -36,23 +36,14 @@ SimpleSprite::~SimpleSprite()
 // to call SDL_RenderCopy to actually do the rendering. See slides for info.
 void SimpleSprite::render(SDL_Renderer* renderer)
 {
-	int srcx = frameWidthPixels* frameIndex;
+	if (active)
+	{
+		dstRect = parent->myRect;
+		
 
-	 srcRect = { srcx,0,frameWidthPixels,frameHeightPixels };
 
-	 xscale = 8;
-	 yscale = 8;
-
-	//dest rectangle, where drawing to on window
-	SDL_Rect dstRect = { x,y,frameWidthPixels*xscale,frameHeightPixels*yscale};
-
-	
-
-	dstRect.x = ((gTimer.totalTicksSinceStart / 10) % 1000);
-	center->x = 0;
-	center->y = 0;
-	Flip = SDL_FLIP_HORIZONTAL;
-	SDL_RenderCopyEx(renderer, texture, &srcRect, &dstRect,angle,center,Flip);
+		SDL_RenderCopy(renderer, texture,&currentFrame->srcRect , dstRect);
+	}
 }
 
 // this function should handle the logic of choosing the "source rectangle" srcRect, easy version is to follow the modulo % math given in the slides
@@ -62,23 +53,22 @@ void SimpleSprite::update(int ticks)
 	/*
 	Here you need to update the frame index value, then calculate the source rectangle srcRect using the updated frame index
 	*/
-	
-	animationTimer += gTimer.deltaTime;
+	//SDL_LogInfo(SDL_LOG_CATEGORY_VIDEO, "simplesprite update called");
 
-	if (animationTimer > animationSpeed)
+	if (animation)
 	{
-		frameIndex++;
-		animationTimer = 0;
-		SDL_Log(" New frame ");
-
-	}
-
-	SDL_Log("TimeElapsed = %d", animationTimer);
-
-	//source rectangle drawn from
-	if ((frameIndex >= numberOfFrames) || (frameIndex < 0))
-	{
-		frameIndex = 0;
+		timeSinceAnimationChange += gTimer.deltaTime;
+		if (timeSinceAnimationChange > animation->playbackrate)
+		{
+			timeSinceAnimationChange = 0;
+			currentAnimationIndex++;
+			if (currentAnimationIndex >= animation->mFrameIndices.size())
+			{
+				currentAnimationIndex = 2;
+			}
+			currentFrame = theTextureManager->GetFrame(animation->mFrameIndices[currentAnimationIndex]);
+			texture = theTextureManager->GetTextureFromIndex(currentFrame->textureindex);
+		}
 	}
 
 }
@@ -137,13 +127,3 @@ void SimpleSprite::load(SDL_Renderer* renderer, const char* path, bool bUseColou
 
 }
 
-// simple setter
-void SimpleSprite::setNumberOfFrames(unsigned int framecount)
-{
-	numberOfFrames = framecount;
-}
-// simple setter
-void SimpleSprite::setAnimationSpeed(unsigned int speed)
-{
-	animationSpeed = speed;
-}

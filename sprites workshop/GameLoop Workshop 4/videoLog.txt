@@ -1,4 +1,0 @@
-[26/04/21 19:53:11] Initialised window
-[26/04/21 19:53:11] Window and Renderer Created: (1139d20) (1139d24)
-[26/04/21 19:53:11] loaded sprite while loading content/sprite.png using IMG_LoadTexture
-[26/04/21 19:53:17] GameLoop Sequence Broken

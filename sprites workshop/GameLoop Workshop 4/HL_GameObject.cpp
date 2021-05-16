@@ -4,18 +4,29 @@
 
 void HL_GameObject::Init(int xpos, int ypos, int w, int h)
 {
+	myRect = new SDL_Rect();
 	this->x = xpos;
 	this->y = ypos;
 	this->width = w;
 	this->height = h;
 
+	myRect->x = this->x;
+	myRect->y = this->y;
+	myRect->w = this->width;
+	myRect->h = this->height;
+
 	this->R = 0;
 	this->G = 0;
 	this->B = 255;
 
-	myRect = new SDL_Rect();
+	
+
+	
 
 	SDL_LogInfo(SDL_LOG_CATEGORY_APPLICATION, "An object initialised- %s (%p)", _objectName.c_str(), this);
+
+	
+
 
 }
 
@@ -64,20 +75,18 @@ void HL_GameObject::Input(SDL_Event _event)
 
 void HL_GameObject::Update()
 {
-	printf("Default Update Called");
+	sprite->update(0);
+	
 }
 
 void HL_GameObject::Render(SDL_Renderer* theRenderer)
 {
 	SDL_SetRenderDrawColor(theRenderer, R, G, B, 255);
 
-	myRect->x = x;
-	myRect->y = y;
-	myRect->w = width;
-	myRect->h = height;
-
 	SDL_RenderFillRect(theRenderer, myRect);
-	SDL_LogInfo(SDL_LOG_CATEGORY_RENDER, "Rendered object: %s (%p)", _objectName.c_str(), this);
+	sprite->render(theRenderer);
+	//SDL_LogInfo(SDL_LOG_CATEGORY_RENDER, "Rendered object: %s (%p)", _objectName.c_str(), this);
+
 	
 }
 
@@ -85,6 +94,9 @@ HL_GameObject::HL_GameObject()
 {
 	SDL_LogMessage(SDL_LOG_CATEGORY_APPLICATION, SDL_LOG_PRIORITY_INFO, "Default GameObject Constructor called (%p)", this);
 	_objectName = "Default GameObject";
+	theTextureManager = theTextureManager->GetInstance();
+	sprite = new SimpleSprite("Heartbeat");
+	sprite->parent = this;
 }
 
 HL_GameObject::~HL_GameObject()

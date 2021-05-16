@@ -11,10 +11,12 @@
 #include "HL_Vector2D.h"
 #include "HL_FileLogger.h"
 #include "HL_SimpleSprite.h"
+#include "TextureManager.h"
 #include <SDL_image.h>
+#include <SDL_mixer.h>
+#include <SDL_ttf.h>
 
 #define MAX_KEYS (256)
-
 
 
 class HL_GameWorld
@@ -56,6 +58,8 @@ public:
 
 	//keyboard Handler
 	bool gKeys[MAX_KEYS];
+
+
 
 	/////////////////////////
 	//GAMEOBJECTS 

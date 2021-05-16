@@ -1,27 +1,29 @@
 #include "HL_RhythmObject.h"
 
-HL_RhythmObject::HL_RhythmObject():HL_GameObject()
+HL_RhythmObject::HL_RhythmObject() :HL_GameObject()
 {
 	active = false;
 
 
+	sprite = new SimpleSprite("Heartbeat");
+	sprite->parent = this;
+
 }
-
-void HL_RhythmObject::Render(SDL_Renderer* renderer)
+void HL_RhythmObject::Input(SDL_Event _event)
 {
-	if (active)
+
+	if (_event.type == SDL_USEREVENT)
 	{
-		if(pressed){ SDL_SetRenderDrawColor(renderer, R, 255, B, 255); }
-		else { SDL_SetRenderDrawColor(renderer, R, G, 255, 255); }
+		if (_event.user.code == 0)
+		{
+			this->sprite->currentAnimationIndex = 0;
 
-	myRect->x = x;
-	myRect->y = y;
-	myRect->w = width;
-	myRect->h = height;
+		}
 
-	SDL_RenderFillRect(renderer, myRect);
 	}
 }
+
+
 
 
 

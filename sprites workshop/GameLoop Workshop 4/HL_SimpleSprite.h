@@ -1,5 +1,10 @@
 #pragma once
 #include "SDL.h"
+#include "HL_Timer.h"
+#include "SDL_Image.h"	// we need this for texture loading function
+#include "TextureManager.h"
+#include "HL_GameObject.h"
+
 
 // "Simple" sprite class example outline - You need to complete the functions to make this work. This is intended to get you started, but needs a lot of
 // work to make it fit for purpose. Get this working and then expand on it to make a proper sprite class for yourself.
@@ -8,21 +13,16 @@ class SimpleSprite
 {
 public:
 	SimpleSprite(int x, int y, int widthPixels, int heightPixels);
+	SimpleSprite(std::string sequence);
 	~SimpleSprite();
 
 	// you might need to rename these functions to work with your own code.. don't forget to update the CPP file too!
 	void render(SDL_Renderer* renderer);
 	void update(int ticks);
 	void load(SDL_Renderer* renderer, const char* path, bool bUseColourKey = false);
-	void setNumberOfFrames(unsigned int framecount);
-	void setAnimationSpeed(unsigned int speed);
 
-	// x and y position of the sprite in screen space
-	int x, y = 1;
-	// width and height of the sprite within the source texture
-	int frameWidthPixels, frameHeightPixels = 0;
-	// optional, scale the destination sprite during rendering
-	int xscale, yscale = 3;
+	unsigned int currentAnimationIndex = 0;
+	bool active = true;
 
 	//rotation angle 
 	double angle = 30;
@@ -32,16 +32,26 @@ public:
 	//Flipped? default = NONE
 	SDL_RendererFlip Flip = SDL_FLIP_NONE;
 	
-	HL_GameObject* _parent = NULL;
+	HL_GameObject* parent;
 
 protected:
-	SDL_Texture* texture = nullptr;	// pointer to an SDL_Texture, always initialize your pointers to either NULL or nullptr
-	SDL_Rect srcRect;					// this is the source rectangle where we will copy the sprite from within the texture
 
-	unsigned int numberOfFrames = 4;	// how many frames of animation?
-	unsigned int animationSpeed = 100;	// how many milliseconds between each frame of animation?
+	TextureManager* theTextureManager = NULL;
+	SDL_Texture* texture = nullptr;	// pointer to an SDL_Texture, always initialize your pointers to either NULL or nullptr
+	SDL_Rect* dstRect;		
+	
+	// this is the source rectangle where we will copy the sprite from within the texture
+
+	const SpriteSequence* animation = NULL;
+	const SpriteFrame* currentFrame = NULL;
+
+	unsigned int timeSinceAnimationChange = 0;
+
+	
+
+	
 	unsigned int animationTimer = 0;	// how long since the last frame?
-	unsigned int frameIndex = 0;		// which frame are we currently on?
+		// which frame are we currently on?
 
 	
 };

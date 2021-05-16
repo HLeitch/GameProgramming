@@ -1,0 +1,182 @@
+{
+    "frames": [
+        {
+            "filename": "EnemyRunning-0.png",
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-1.png",
+            "frame": {
+                "x": 791,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-2.png",
+            "frame": {
+                "x": 1582,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-3.png",
+            "frame": {
+                "x": 0,
+                "y": 791,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-4.png",
+            "frame": {
+                "x": 791,
+                "y": 791,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-5.png",
+            "frame": {
+                "x": 1582,
+                "y": 791,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-6.png",
+            "frame": {
+                "x": 0,
+                "y": 1582,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        },
+        {
+            "filename": "EnemyRunning-7.png",
+            "frame": {
+                "x": 791,
+                "y": 1582,
+                "w": 791,
+                "h": 791
+            },
+            "rotated": false,
+            "trimmed": false,
+            "spriteSourceSize": {
+                "x": 0,
+                "y": 0,
+                "w": 791,
+                "h": 791
+            },
+            "sourceSize": {
+                "w": 791,
+                "h": 791
+            }
+        
+}],
+
+"meta": {
+    "app": "https://github.com/piskelapp/piskel/",
+    "version": "1.0",
+    "image": "EnemyRunning.png",
+    "format": "RGBA8888",
+    "size": {
+        "w": 2373,
+        "h": 2373
+    }
+} }
